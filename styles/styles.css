@@ -1,0 +1,92 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(255, 255, 255);
+    
+}
+.shopping-list
+{
+    background-color: rgb(131, 74, 74);
+    width: 100%;
+    height: 100vh;
+}
+.items
+{
+    max-height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 20px;
+
+}
+.items h1
+{
+    padding: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 50;
+}
+.items::-webkit-scrollbar
+{
+    display: none;
+}
+.items ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.items li
+{
+    display: flex;
+    padding: 13px;
+    background-color: #fffffff8;
+    margin: 10px;
+}
+
+.lists li p
+{
+    width: 85%;
+}
+.del
+{
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+.pur
+{
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+.add-list
+{
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+.add-list input
+{
+    height: 50px;
+    border: 2px solid grey;
+    outline: none;
+    width: 70%;
+    padding-left: 10px;
+}
+.add-list button 
+{
+    border: none;
+    height: 50px;
+    width: 30%;
+    background-color: white;
+    color: black;
+}
